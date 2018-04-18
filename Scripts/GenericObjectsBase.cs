@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class GenericObjectBase<T> : ScriptableObject 
+[Serializable]
+public abstract class GenericObjectsBase<T> : ScriptableObject 
 {
 	public List<T> Items = new List<T>();
-
+	
 	public void Add(T obj)
 	{
 		if (!Items.Contains(obj))

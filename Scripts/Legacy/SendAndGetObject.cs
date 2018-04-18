@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "Object")]
+[CreateAssetMenu(fileName = "Object", menuName = "Object/Send And Get Object")]
 public class SendAndGetObject : ScriptableObject
 {
     public object Object { get; private set; }
