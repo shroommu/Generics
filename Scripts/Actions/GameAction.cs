@@ -21,4 +21,14 @@ public class GameAction : ScriptableObject
 	{
 		Call(obj);
 	}
+	
+	public void ActionCall(float obj)
+	{
+		Call(obj);
+	}
+	
+	public void ActionCall(Transform obj)
+	{
+		Call(obj);
+	}
 }
