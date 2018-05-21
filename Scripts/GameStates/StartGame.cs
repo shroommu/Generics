@@ -5,7 +5,6 @@ public class StartGame : GameStateBase
 {
 	public override void StartState()
 	{
-		
 		Debug.Log("Starting Game");
 	}
 
