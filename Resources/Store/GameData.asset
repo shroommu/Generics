@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42760e48b4d8e4bff989c18c5a79a467, type: 3}
-  m_Name: Purchases
+  m_Name: GameData
   m_EditorClassIdentifier: 
   Items:
-  - {fileID: 11400000}
-  - {fileID: 243158379835941558, guid: fa00ea734b4d87547a985a1495f6a67b, type: 2}
-  - {fileID: 11400000, guid: 1c05910f4ba2a41aebfe49f56b7ff24d, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
